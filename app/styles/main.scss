@@ -158,6 +158,11 @@ h2 {
   @include section-background-image( '../images/laptop.jpg');
 }
 
+.vertical-align {
+  display: flex;
+  align-items: center;
+}
+
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
