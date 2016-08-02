@@ -21,6 +21,7 @@ $font-family_2: 'Arvo', courier, serif;
   font-family: $font-family_1;
   padding-left: 0.5em;
   vertical-align: middle;
+  font-weight: lighter;
 }
 
 // bower:scss
@@ -59,12 +60,6 @@ h2 {
 
 .btn {
   margin-top: 0.5em;
-}
-
-.btn-showme {
-  &:after {
-    @include font-awesome-icon("\f061");
-  }
 }
 
 .btn-learnmore {
