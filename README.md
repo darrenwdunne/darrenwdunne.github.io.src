@@ -6,8 +6,11 @@ Web site initialized with Yeoman to get the environment established. Real-time b
 
 I found Gulp to be much nicer than Grunt, and the Yeoman environment automatically setup the best-of-breed file structure and build environment.
 
+Bootstrap is used to provide the Responsive Web Design. Check it out on a phone or tablet (especially the Projects page)
+to see the layout in action.
 
-## to build, simply:
+
+## To Build
 
 ```
 git clone ...
@@ -16,7 +19,7 @@ bower install
 gulp && gulp serve
 ```
 
-## to deploy:
+## To Deploy
 ```
 gulp deploy
 ```
